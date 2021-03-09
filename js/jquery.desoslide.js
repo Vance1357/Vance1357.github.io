@@ -760,7 +760,7 @@
                                 $(p.main.container).trigger('next.desoslide');
                             break;
                             case 32: /* Space */
-                                e.preventDefault();
+                                /*e.preventDefault();*/
                                 $(p.main.container).trigger((!p.auto.start) ? 'play' : 'pause' +'.desoslide');
                             break;
                         }
